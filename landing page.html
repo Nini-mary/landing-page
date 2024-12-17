@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')
+             no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .navbar .site-name {
+            font-size: 1.5em;
+        }
+        .navbar .nav-options {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-options a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        .navbar .nav-options a:hover {
+            color: #ffdd57;
+        }
+        .content {
+            text-align: center;
+            margin-top: 150px;
+        }
+        .content h1 {
+            font-size: 3em;
+        }
+        .content p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .content a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .content a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="site-name">MyWebsite</div>
+        <div class="nav-options">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome to MyWebsite</h1>
+        <p>Explore our amazing content and discover what we have to offer. Here you can find everything you need to know 
+            about our services and how we can help you achieve your goals.</p>
+        <a href="#get-started">Get Started</a>
+    </div>
+</body>
+</html>
